@@ -3,7 +3,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "angular-fron-end": {
+    "bank-account-angular-front-end": {
       "projectType": "application",
       "schematics": {},
       "root": "",
@@ -60,13 +60,13 @@
           "builder": "@angular/build:dev-server",
           "configurations": {
             "production": {
-              "buildTarget": "angular-fron-end:build:production"
+              "buildTarget": "bank-account-angular-front-end:build:production"
             },
             "development": {
-              "buildTarget": "angular-fron-end:build:development"
+              "buildTarget": "bank-account-angular-front-end:build:development"
             }
           },
-          "defaultConfiguration": "development"
+          "defaultConfiguration": "production"
         },
         "extract-i18n": {
           "builder": "@angular/build:extract-i18n"
